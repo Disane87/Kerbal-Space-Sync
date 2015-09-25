@@ -20,6 +20,7 @@ Write-Host "##            http://bit.ly/1gTUv1T              ##" -ForegroundColo
 
 Write-Host "############ KERBAL SPACE PROGRAM SYNC ############`r`n`r`n`r`n" -ForegroundColor red -BackgroundColor white
 
+
 Write-Host "Searching for Kerbal Space Program Installation..."
 if((test-path $KSPReg)) { 
     $KSPfolder = (get-item $KSPReg).GetValue("InstallLocation") + '\'

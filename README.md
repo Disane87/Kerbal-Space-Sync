@@ -11,3 +11,12 @@ This script will detect our DropBox installation and path and copies all folder 
 # Planned features:
 - Compatible with OSX
 - Choose between Dropbox, iCloud, OneDrive 
+
+# Installation / Usage
+Just edit these settings to fit your needs:
+```powershell
+$syncflder = "KSPSync\" # Folder within your Dropbox
+$savefldr = $syncflder+'saves\'
+$modfldr = $syncflder+'mods\'
+$pluginfldr = $syncflder+'plugins\'
+```
